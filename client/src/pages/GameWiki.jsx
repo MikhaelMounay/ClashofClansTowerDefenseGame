@@ -150,7 +150,8 @@ const GameWiki = () => {
                 </div>
             </div>
 
-            <button className="btn btn-success fs-4 mt-5 mb-3">Download & Play Now</button>
+            {/* TODO: Link for game download */}
+            <button className="btn btn-success fs-4 mt-5 mb-3"><a className="text-decoration-none" href="https://github.com/MikhaelMounay/ClashofClansTowerDefenseGame/releases/download/V2.0/ClashofClansTowerDefenseGame_V2.0.zip" download>Download & Play Now</a></button>
 
             <div className="mt-5 text-center">
                 <Link to="/">

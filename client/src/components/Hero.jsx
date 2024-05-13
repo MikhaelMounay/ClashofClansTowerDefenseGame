@@ -20,11 +20,10 @@ const Hero = () => {
                 <p className="text-muted mt-4">Made with ❤️ by Mikhael Khalil | Kirollos Mounir | Amonios Beshara @ AUC</p>
 
                 {/* TODO: Link for game download */}
-                <button className="btn btn-success fs-4 mt-5 mb-4">Download & Play Now</button>
+                <button className="btn btn-success fs-4 mt-5 mb-4"><a className="text-decoration-none" href="https://github.com/MikhaelMounay/ClashofClansTowerDefenseGame/releases/download/V2.0/ClashofClansTowerDefenseGame_V2.0.zip" download>Download & Play Now</a></button>
 
                 <div className="row w-75 mx-auto g-4 mt-1 text-muted fs-6">
                     <div className="col-md-4 d-flex align-items-center justify-content-center">
-                        {/* TODO: GitHub Repo link */}
                         Contribute on &nbsp;
                         <a href="https://github.com/MikhaelMounay/ClashofClansTowerDefenseGame/" target="_blank">
                             GitHub Repo &nbsp;{" "}

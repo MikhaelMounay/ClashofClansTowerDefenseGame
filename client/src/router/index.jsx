@@ -31,7 +31,7 @@ const router = createBrowserRouter(
             <Route path="userpanel" element={wrappedWithSuspense(UserPanel)} />
             <Route path="gamewiki" element={wrappedWithSuspense(GameWiki)} />
         </Route>
-    )
+    ), {basename: "/ClashofClansTowerDefenseGame"}
 );
 
 export default router;
