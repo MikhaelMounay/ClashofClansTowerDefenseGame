@@ -1,0 +1,64 @@
+{
+    "fences": [
+        {
+            "name": "Barbed Wire Fence",
+            "id": 1,
+            "price": 100,
+            "maxHealth": 80
+        },
+        {
+            "name": "Reinforced Concrete Wall",
+            "id": 2,
+            "price": 500,
+            "maxHealth": 100
+        },
+        {
+            "name": "Brick Wall",
+            "id": 3,
+            "price": 1000,
+            "maxHealth": 130
+        },
+        {
+            "name": "Iron Spiked Barrier",
+            "id": 4,
+            "price": 1750,
+            "maxHealth": 170
+        },
+        {
+            "name": "Titanium Barrier",
+            "id": 5,
+            "price": 2800,
+            "maxHealth": 220
+        },
+        {
+            "name": "Volcano Barrier",
+            "id": 6,
+            "price": 4000,
+            "maxHealth": 280
+        },
+        {
+            "name": "Astral Bulwark",
+            "id": 7,
+            "price": 6500,
+            "maxHealth": 350
+        },
+        {
+            "name": "Celestial Barrier",
+            "id": 8,
+            "price": 9000,
+            "maxHealth": 450
+        },
+        {
+            "name": "Mystic Ward",
+            "id": 9,
+            "price": 1200,
+            "maxHealth": 600
+        },
+        {
+            "name": "Seraphim Rampart",
+            "id": 10,
+            "price": 1500,
+            "maxHealth": 1000
+        }
+    ]
+}

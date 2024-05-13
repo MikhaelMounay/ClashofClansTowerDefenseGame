@@ -1,0 +1,39 @@
+{
+    "workers": [
+        {
+            "name": "Seraphic Aide",
+            "id": 1,
+            "price": 100,
+            "workerSpeed": 3,
+            "workerHealing": 30
+        },
+        {
+            "name": "Arcane Artisan",
+            "id": 2,
+            "price": 500,
+            "workerSpeed": 4,
+            "workerHealing": 40
+        },
+        {
+            "name": "Celestial Engineer",
+            "id": 3,
+            "price": 1500,
+            "workerSpeed": 4,
+            "workerHealing": 50
+        },
+        {
+            "name": "Mystic Medic",
+            "id": 4,
+            "price": 3000,
+            "workerSpeed": 5,
+            "workerHealing": 60
+        },
+        {
+            "name": "Shadowsteel Sorcerer",
+            "id": 5,
+            "price": 7000,
+            "workerSpeed": 7,
+            "workerHealing": 100
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "castles": [
+        {
+            "name": "Citadel of Eternity",
+            "id": 1,
+            "price": 300,
+            "maxHealth": 100
+        },
+        {
+            "name": "Stone Fort",
+            "id": 2,
+            "price": 800,
+            "maxHealth": 110
+        },
+        {
+            "name": "Serenity Citadel",
+            "id": 3,
+            "price": 1100,
+            "maxHealth": 130
+        },
+        {
+            "name": "Arcane Tower",
+            "id": 4,
+            "price": 1500,
+            "maxHealth": 140
+        },
+        {
+            "name": "Phoenix Citadel",
+            "id": 5,
+            "price": 2000,
+            "maxHealth": 160
+        },
+        {
+            "name": "Celestial Spire",
+            "id": 6,
+            "price": 2500,
+            "maxHealth": 190
+        },
+        {
+            "name": "Crystal Palace",
+            "id": 7,
+            "price": 3200,
+            "maxHealth": 220
+        },
+        {
+            "name": "Forest ",
+            "id": 8,
+            "price": 4400,
+            "maxHealth": 250
+        },
+        {
+            "name": "Shadowkeep Stronghold",
+            "id": 9,
+            "price": 6000,
+            "maxHealth": 300
+        },
+        {
+            "name": "Dragonfire Bastion",
+            "id": 10,
+            "price": 10000,
+            "maxHealth": 400
+        }
+    ]
+}

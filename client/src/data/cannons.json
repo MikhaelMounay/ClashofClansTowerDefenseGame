@@ -1,0 +1,84 @@
+{
+    "cannons": [
+        {
+            "name": "Thunderclap Cannon",
+            "id": 1,
+            "price": 200,
+            "bulletDamage": 30,
+            "bulletSpeed": 20,
+            "attackSpeed_ms": 500
+        },
+        {
+            "name": "Spear Thrower",
+            "id": 2,
+            "price": 500,
+            "bulletDamage": 50,
+            "bulletSpeed": 20,
+            "attackSpeed_ms": 250
+        },
+        {
+            "name": "Air Defense",
+            "id": 3,
+            "price": 1000,
+            "bulletDamage": 50,
+            "bulletSpeed": 30,
+            "attackSpeed_ms": 200
+        },
+        {
+            "name": "Multi Cannon",
+            "id": 4,
+            "price": 1500,
+            "bulletDamage": 60,
+            "bulletSpeed": 40,
+            "attackSpeed_ms": 200
+        },
+        {
+            "name": "Multi Mortar",
+            "id": 5,
+            "price": 2200,
+            "bulletDamage": 80,
+            "bulletSpeed": 60,
+            "attackSpeed_ms": 175
+        },
+        {
+            "name": "Rapid Rockets",
+            "id": 6,
+            "price": 3000,
+            "bulletDamage": 100,
+            "bulletSpeed": 60,
+            "attackSpeed_ms": 150
+        },
+        {
+            "name": "Rocket Artillery",
+            "id": 7,
+            "price": 5000,
+            "bulletDamage": 120,
+            "bulletSpeed": 90,
+            "attackSpeed_ms": 150
+        },
+        {
+            "name": "Giant Cannon",
+            "id": 8,
+            "price": 8000,
+            "bulletDamage": 150,
+            "bulletSpeed": 100,
+            "attackSpeed_ms": 150
+        },
+        {
+            "name": "Blast Bow",
+            "id": 9,
+            "price": 12000,
+            "bulletDamage": 200,
+            "bulletSpeed": 150,
+            "attackSpeed_ms": 150
+        },
+        {
+            "name": "Tempest Launcher",
+            "id": 10,
+            "price": 20000,
+            "bulletDamage": 300,
+            "bulletSpeed": 220,
+            "attackSpeed_ms": 200
+        }
+    ]
+}

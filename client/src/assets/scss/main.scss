@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Lilita+One&display=swap");
+
+// Variables
+$scrollbar-color: rgb(150, 150, 150);
+$DataTable-top-font-size: 1.1rem;
+
+// Global
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $scrollbar-color;
+    border-radius: 10px;
+    &:hover {
+        background: darken($color: $scrollbar-color, $amount: 5);
+    }
+    &:active {
+        background: darken($color: $scrollbar-color, $amount: 10);
+    }
+}
+
+body {
+    font-family: "Lilita One", sans-serif;
+    background-image: url("../imgs/body_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    a {
+        color: currentColor;
+        transition: 0.2s;
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+}
+
+// App.jsx
+.body-background {
+    background-color: rgba(240, 240, 240, 0.85);
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    @media (max-width: 575.98px) {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+// Hero.jsx
+.hero {
+    .landing-icon {
+        width: clamp(6rem, 10vw, 9rem);
+    }
+}
+
+// Leaderboard.jsx
+.leaderboard {
+    .table-container {
+        .row {
+            --bs-gutter-x: 0;
+            --bs-gutter-y: 0;
+        }
+
+        .dt-container {
+            .dt-info {
+                font-size: $DataTable-top-font-size;
+                margin-left: 3rem;
+                @media (max-width: 767.98px) {
+                    margin-left: 0;
+                    margin-bottom: 2rem;
+                }
+            }
+            .dt-search {
+                font-size: $DataTable-top-font-size;
+                margin-right: 3rem;
+                input {
+                    font-size: $DataTable-top-font-size;
+                    margin-left: 1rem;
+                    border-radius: 0;
+                    border: none;
+                    border-bottom: 2px solid #000;
+                    background-color: transparent;
+                    &:hover {
+                        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+                    }
+                    &:focus {
+                        box-shadow: none;
+                        border-bottom: 2px solid green;
+                    }
+                }
+                @media (max-width: 767.98px) {
+                    margin-right: 0;
+                    margin-bottom: 2rem;
+                }
+            }
+            .dataTable {
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+// Login
+.login-form {
+    width: 30%;
+    @media (max-width: 991.98px) {
+        width: 75%;
+    }
+
+    input {
+        font-size: $DataTable-top-font-size;
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px solid #000;
+        background-color: transparent;
+        &:hover {
+            border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+        }
+        &:focus {
+            box-shadow: none;
+            border-bottom: 2px solid green;
+            background-color: transparent;
+        }
+    }
+}
+
+// Control Panel
+.control-panel {
+    form {
+        select,
+        input {
+            font-size: $DataTable-top-font-size;
+            margin-inline-end: 3rem;
+            border-radius: 0;
+            border: none;
+            border-bottom: 2px solid #000;
+            background-color: transparent;
+            &:hover {
+                border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+            }
+            &:focus {
+                box-shadow: none;
+                border-bottom: 2px solid green;
+                background-color: transparent;
+            }
+        }
+    }
+    .confirm-delete {
+        text-decoration: underline;
+        opacity: 0.8;
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
+}
+
+.md-container {
+    hr {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+}
