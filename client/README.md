@@ -1,8 +1,11 @@
-# React + Vite
+# Clash of Clans | Tower Defense
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*This branch is dedicated only to the Web Client (Website) deployment on GitHub Pages.*
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Used Techs / Services
+ - [![React](https://img.shields.io/badge/-React%2018-61DAFB?logo=React&logoColor=black&style=flat-square)](https://react.dev/) [![Vite](https://img.shields.io/badge/-Vite%205-646CFF?logo=Vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
+ - [![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=Sass&logoColor=white&style=flat-square)](https://sass-lang.com/)
+ - [![React Router 6](https://img.shields.io/badge/-React%20Router%206-CA4245?logo=React%20Router&logoColor=white&style=flat-square)](https://reactrouter.com/)
+ - [![Bootstrap 5](https://img.shields.io/badge/-Bootstrap%205-7952B3?logo=Bootstrap&logoColor=white&style=flat-square)](https://getbootstrap.com/)
+ - [![DataTables 2](https://img.shields.io/badge/-DataTables%202-3a7fd5?logoColor=white&style=flat-square)](https://datatables.net/)
+ - [![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222222?logo=GitHub%20Pages&logoColor=white&style=flat-square)](https://pages.github.com/)
