@@ -44,7 +44,7 @@ Further developments we have in mind for now:
 
 ## For Developers
 
-### Building from Source Code
+### Building from Source Code (Used Techs / Services)
 
 ***Qt C++*** 
 > Used build system : `QMake 3.1` - `Desktop Qt 6.6.2 MinGW 64-bit`
