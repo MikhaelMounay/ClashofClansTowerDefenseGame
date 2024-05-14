@@ -16,6 +16,12 @@ const Leaderboard = () => {
         try {
             const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/players`);
             const jsonData = await response.json();
+
+            console.log(jsonData.players);
+            for (let i = 0; i < jsonData.players.length; i++) {
+                jsonData.players[i].global_rank = parseInt(jsonData.players[i].global_rank);
+            }
+
             setLbData(jsonData.players);
         } catch (err) {
             console.log(err.message);
@@ -59,8 +65,10 @@ const Leaderboard = () => {
             },
             data: lbData,
             columns: [
-                { data: "global_rank", title: "Global Rank", render: (data) => ("🏅 " + data) },
-                { data: "clan_rank", title: "Clan Rank", render: (data) => ("🎖️ " + data) },
+                // { data: "global_rank", title: "Global Rank", render: (data) => ("🏅 " + data) },
+                // { data: "clan_rank", title: "Clan Rank", render: (data) => ("🎖️ " + data) },
+                { data: "global_rank", title: "Global Rank" },
+                { data: "clan_rank", title: "Clan Rank" },
                 { data: "username", title: "Username", render: (data) => ("📛 " + data) },
                 { data: "level", title: "Level", render: (data) => ("🎚️ " + data) },
                 { data: "gold", title: "Gold", render: (data) => ("🪙 " + data) },
