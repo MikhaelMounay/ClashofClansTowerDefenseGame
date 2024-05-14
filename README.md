@@ -1,8 +1,9 @@
 # Clash of Clans | Tower Defense
 *Clash of Clans | Tower Defense* is a game inspired by the popular game [Clash of Clans by Supercell](https://supercell.com/en/games/clashofclans/).
 
-### 🗺️ Game Wiki 🗺️
-Check the [Official Website](https://mikhaelmounay.github.io/ClashofClansTowerDefenseGame/) for the [Game Wiki](https://mikhaelmounay.github.io/ClashofClansTowerDefenseGame/#/gamewiki) now!
+<br />
+
+### Check the [Official Website](https://mikhaelmounay.github.io/ClashofClansTowerDefenseGame/) for the [🗺️ Game Wiki 🗺️](https://mikhaelmounay.github.io/ClashofClansTowerDefenseGame/#/gamewiki) now!
 
 <br />
 
