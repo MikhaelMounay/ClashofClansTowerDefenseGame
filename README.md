@@ -7,4 +7,5 @@
  - [![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=Sass&logoColor=white&style=flat-square)](https://sass-lang.com/)
  - [![React Router](https://img.shields.io/badge/-React%20Router%206-CA4245?logo=React%20Router&logoColor=white&style=flat-square)](https://reactrouter.com/)
  - [![Bootstrap](https://img.shields.io/badge/-Bootstrap%205-7952B3?logo=Bootstrap&logoColor=white&style=flat-square)](https://getbootstrap.com/)
- - [![DataTables](https://img.shields.io/badge/-DataTables%202-3a7fd5?logoColor=white&style=flat-square)](https://getbootstrap.com/)
+ - [![DataTables](https://img.shields.io/badge/-DataTables%202-3a7fd5?logoColor=white&style=flat-square)](https://datatables.net/)
+ - [![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222222?logo=GitHub%20Pages&logoColor=white&style=flat-square)](https://pages.github.com/)
