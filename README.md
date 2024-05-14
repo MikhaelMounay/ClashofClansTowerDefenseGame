@@ -46,26 +46,23 @@ Further developments we have in mind for now:
 
 ### Building from Source Code (Used Techs / Services)
 
-***Qt C++*** 
-> Used build system : `QMake 3.1` - `Desktop Qt 6.6.2 MinGW 64-bit`
+#### **Qt C++**
+- [![Qt C++ 6](https://img.shields.io/badge/-Qt%20C%2B%2B%206-41CD52?logo=Qt&logoColor=white&style=flat-square)](https://pages.github.com/)
 
-***Web Server (RESTful API)***
-> `Node.js (>=14)`
-> 
-> with `PostgreSQL (16)`
-> 
-> *dependencies:* `express.js (4)` *&* `pg (8)`
-> 
-> *hosted on* [Render](https://render.com/) 
+	Used build system : `QMake 3.1` - `Desktop Qt 6.6.2 MinGW 64-bit`
 
-***Web Client (SPA)***
-> `React (18)` on `Vite (5)`
-> 
-> *with* `SASS`
-> 
-> *dependencies:* `React Router DOM (6)` & `DataTables (2)` & `Bootstrap (5)`
-> 
-> *hosted on* [GitHub Pages](https://pages.github.com/) 
+#### **Web Server (RESTful API)**
+ - [![Node.js](https://img.shields.io/badge/-Node%2Ejs%2020-5FA04E?logo=Node%2Ejs&logoColor=white&style=flat-square)](https://nodejs.org/) [![PostgreSQL 16](https://img.shields.io/badge/-PostgreSQL%2016-4169E1?logo=PostgreSQL&logoColor=white&style=flat-square)](https://www.postgresql.org/)
+ - [![Express 4](https://img.shields.io/badge/-Express%204-000000?logo=Express&logoColor=white&style=flat-square)](https://www.express.com/)
+ - [![Render.com](https://img.shields.io/badge/-Render%2Ecom-black?logoColor=white&style=flat-square)](https://render.com/)
+
+#### **Web Client (SPA)**
+ - [![React](https://img.shields.io/badge/-React%2018-61DAFB?logo=React&logoColor=black&style=flat-square)](https://react.dev/) [![Vite](https://img.shields.io/badge/-Vite%205-646CFF?logo=Vite&logoColor=white&style=flat-square)](https://vitejs.dev/)
+ - [![Sass](https://img.shields.io/badge/-Sass-CC6699?logo=Sass&logoColor=white&style=flat-square)](https://sass-lang.com/)
+ - [![React Router 6](https://img.shields.io/badge/-React%20Router%206-CA4245?logo=React%20Router&logoColor=white&style=flat-square)](https://reactrouter.com/)
+ - [![Bootstrap 5](https://img.shields.io/badge/-Bootstrap%205-7952B3?logo=Bootstrap&logoColor=white&style=flat-square)](https://getbootstrap.com/)
+ - [![DataTables 2](https://img.shields.io/badge/-DataTables%202-3a7fd5?logoColor=white&style=flat-square)](https://datatables.net/)
+ - [![GitHub Pages](https://img.shields.io/badge/-GitHub%20Pages-222222?logo=GitHub%20Pages&logoColor=white&style=flat-square)](https://pages.github.com/)
 
 <br />
 
