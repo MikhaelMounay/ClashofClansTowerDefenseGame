@@ -99,3 +99,11 @@ Further developments we have in mind for now:
 
 <br />
 
+<br>
+
+---
+
+<br>
+
+### Collaborators
+- [Amonios Beshara](https://github.com/Amonios-Beshara)
