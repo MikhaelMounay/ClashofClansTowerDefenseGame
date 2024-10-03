@@ -107,3 +107,4 @@ Further developments we have in mind for now:
 
 ### Collaborators
 - [Amonios Beshara](https://github.com/Amonios-Beshara)
+- [Kirollos Mounir](https://github.com/KirollosFady)
